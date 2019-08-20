@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AlertsComponent } from './contents/alerts/alerts.component';
 import { BadgeComponent } from './contents/badge/badge.component';
 import { BreadcrumbComponent } from './contents/breadcrumb/breadcrumb.component';
+import { ButtonsComponent } from './contents/buttons/buttons.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BreadcrumbComponent } from './contents/breadcrumb/breadcrumb.component'
     HomeComponent,
     AlertsComponent,
     BadgeComponent,
-    BreadcrumbComponent
+    BreadcrumbComponent,
+    ButtonsComponent
   ],
   imports: [
     BrowserModule,
